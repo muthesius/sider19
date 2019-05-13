@@ -77,3 +77,29 @@ em {
 li {
   list-style: none;
 }
+
+/* Dates definitions */
+#dates {
+  /* max-width: 250px; */
+  margin: 1rem;
+}
+
+#dates dl, #dates h1 {
+  border: 3px solid black;
+  padding: 1rem 2rem;
+  margin: 0;
+}
+
+#dates h1 {
+  /* pull in the dl to hide the double border */
+  margin-bottom: -3px;
+  font-size: 1rem;
+}
+
+dd::before {
+  content: '\2014'
+}
+
+dd {
+  margin-bottom: 1rem;
+}

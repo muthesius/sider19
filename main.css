@@ -137,8 +137,8 @@ dd {
 .submission-link a {
   font-weight: bold;
   text-transform: uppercase;
-  color: rgb(191,191,191);
-  border: 3px solid rgb(191,191,191);
+  color: black;
+  border: 3px solid black;
   text-decoration: none;
   display: inline;
   padding: 1rem;

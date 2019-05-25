@@ -91,6 +91,10 @@ section {
   margin-top: 2rem;
 }
 
+#news {
+  text-align: center;
+}
+
 /* Dates definitions */
 #dates dl, #dates h1 {
   border: 3px solid black;

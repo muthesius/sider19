@@ -96,10 +96,16 @@ li {
 /* Sections */
 section {
   margin-top: 2rem;
+  background-color: yellow;
 }
 
 #news {
   text-align: center;
+}
+
+/* Venue */
+#venue iframe {
+  width: calc(100% - 2px); /* adjust for OSM 1px border */
 }
 
 /* Dates definitions */

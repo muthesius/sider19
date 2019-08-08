@@ -68,6 +68,7 @@ h2 {
 }
 
 
+
 a[disabled="disabled"] {
   color: grey !important;
   border-color: grey !important;
@@ -76,7 +77,8 @@ a[disabled="disabled"] {
 
 p, li {
   line-height: 2rem;
-  margin: 1rem 0;
+  margin-bottom: 1rem;
+  margin-top: 0;
 }
 
 main {
@@ -95,25 +97,48 @@ li {
 
 /* Sections */
 section {
-  margin-top: 2rem;
-}
-
-#news {
-  text-align: center;
+  margin-top: 5rem;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 910px;
 }
 
 /* Dates definitions */
-#dates dl, #dates h1 {
+
+
+#spacer div {
+  color: black;
   border: 3px solid black;
+  background-color: white;
+  max-width: 330px;
+  margin: auto;
+}
+
+#dates dl {
+  border-top: 3px solid black;
   padding: 1rem 2rem;
-  margin: 0;
+  margin: auto; 
+  background-color: white;
 }
 
 #dates h1 {
   /* pull in the dl to hide the double border */
-  margin-bottom: -3px;
-  font-size: 1rem;
+  
+  margin-top: -1px;
+  margin-bottom: -2px;
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 1rem 1rem;
 }
+
+
+
+#news {
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+
 
 dd::before {
   content: "\2014";
@@ -124,12 +149,18 @@ dd {
 }
 
 /* Submissions */
+
+
 #submissions ul {
+
   counter-reset: submission-type;
 }
 
 #submissions li {
   counter-increment: submission-type;
+  margin-left: -3rem;
+  break-inside: avoid;
+  
 }
 
 #submissions li:before {
@@ -163,19 +194,32 @@ dd {
 
 /* Topics */
 #topics {
-  border: 3px solid black;
-  padding: 0;
-  margin: 0;
+
 }
 
 #topics h1 {
   border-bottom: 3px solid black;
-  margin: 0;
+  margin: 0rem;
   padding: 1rem 1rem 1.5rem 1rem;
+  
 }
 
-#topics ul, #topics p {
-  margin: 1rem;
+#topic_list {
+  border: 3px solid black;
+  padding: auto;
+  margin: auto;
+  max-width: 650px;
+
+}
+#topics ul {
+  margin: auto;
+  
+  
+}
+
+#topics p {
+  margin: 1rem 2rem 1rem;
+
 }
 
 #topics li {

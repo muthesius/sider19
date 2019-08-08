@@ -4,11 +4,54 @@
   ##Screen = 1281px to higher resolution desktops
 */
 
-@media (min-width: 1281px) {
+@media (min-width: 840px) {
   body, footer {
-      max-width: 960px;
+      max-width: 1500px;
       margin: 0 auto;
-  } 
+  }
+
+  #topics ul{
+    column-count: 2;
+  }
+
+  #submissions div{
+    column-count: 2;
+    
+  }
+
+  #spacer{
+    margin-bottom: 5rem;
+  }
+
+  #spacer div {
+    position: absolute;
+    top: 150Px;
+    left: 62%;
+    
+  }
+
+  #dates dl {
+    float: left; 
+
+  }
+
+  #welcome p {
+    max-width: 60%;
+  }
+
+}
+
+@media (min-width: 650px) {
+
+  #topics ul{
+    column-count: 2;
+  }
+
+  #submissions div{
+    column-count: 2;
+    
+  }
+
 }
 
 /* 
@@ -16,13 +59,12 @@
   ##Screen = B/w 1025px to 1280px
 */
 
-@media (min-width: 1025px) and (max-width: 1280px) {
+@media (max-width: 839px) {
   body, footer {
       max-width: 960px;
       margin: 0 auto;
   } 
 }
-
 /* 
   ##Device = Tablets, Ipads (portrait)
   ##Screen = B/w 768px to 1024px

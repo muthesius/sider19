@@ -28,7 +28,6 @@
         
     </header>
     <main>
-
         <section id="dates">
             <h1>Important Dates</h1>
                 <dl>
@@ -72,16 +71,34 @@
             </p>
         </section>
 
+        <aside class="centered-hint">
+            <a class="button-link" href="#tickets">Register a Ticket!</a>
+        </aside>
+
         <section id="news">
+            <h1>The NEWS</h1>
+            <h2>Review processing is closing in!</h2>
+            <p>
+                We are currently finalising the reviews and will let you know as soon as possible.
+            </p>
             <h2>Tickets are now available!</h2>
-                <aside class="submission-link">
-                    <a href="#tickets">Tickets</a>
-                </aside>
+            <p>
+                You can register through buying a ticket for the conference <a href="#tickets">here</a>.
+            </p>
+        </section>
+
+        <section id="tickets">
+            <h1>Tickets</h1>
+            <script>function receiveMessage(e){var t,i,n=e.data.split(":"),r=n[0],a=0,o=["https://organizer.ticketpay.de","https://ticketing.ticketpay.de","https://shop.ticketpay.de","https://preregistration.ticketpay.de"];if(Array.prototype.indexOf||(Array.prototype.indexOf=function(e,t){for(var i=t||0,n=this.length;n>i;i++)if(this[i]===e)return i;return-1}),-1!==o.indexOf(e.origin)&&"resize"===r)for(t=document.getElementsByTagName("iframe"),i=t.length;i>a;a++)if((t[a].contentWindow||t[a].documentWindow)==e.source)return void(t[a].style.height=n[1]+"px")}window.addEventListener?window.addEventListener("message",receiveMessage,!1):window.attachEvent&&window.attachEvent("onmessage",receiveMessage);</script>
+            <iframe frameborder='0' height='100%' id='tpiframe' onload=' ((typeof parent.document.tpiframeCalled === "undefined") ? parent.document.tpiframeCalled = true : parent.document.getElementById("tpiframe").scrollIntoView()) ' scrolling='no' src='https://shop.ticketpay.de/AB7HF4A9' width='100%'></iframe>
         </section>
 
         <section id="submissions">
             <h1>Submission</h1>
             <section>
+                <p>
+                    Submissions are closed!
+                </p>
                 <p>
                     We invite original unpublished research and design work. We welcome case studies, theoretical musings and couplings of theory and practical work. We invite three different types of submissions:
                 </p>
@@ -102,9 +119,9 @@
                     Please find the Nordes paper template here: <strong><a href="http://nordes.org/nordes2013/template.doc" title="Nordes 2013 template">Download Template</a></strong>
                 </p>
             </section>
-                <aside class="submission-link">
-                    <a href="https://easychair.org/conferences/?conf=sider2019" disabled="disabled">Submit a Contribution</a>
-                </aside>
+            <aside class="centered-hint">
+                <a class="button-link" href="https://easychair.org/conferences/?conf=sider2019" disabled="disabled">Submit a Contribution</a>
+            </aside>
         </section>
 
         <section id="topics">
@@ -166,12 +183,6 @@
                 </div>
         </section>
 
-        <section id="tickets">
-            <h1>Tickets</h1>
-            <iframe id="tpiframe" onload="((typeof parent.document.tpiframeCalled === 'undefined') ? parent.document.tpiframeCalled = true : parent.document.getElementById('tpiframe').scrollIntoView())" src="https://shop.ticketpay.de/organizer/Q6TBJHFS?view=grid" scrolling="no" width="100%" height="100%" frameborder="0">
-            </iframe>
-        </section>
-        
         <section id="contact">
             <h1>Contact</h1>
             <p>

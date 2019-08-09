@@ -13,9 +13,9 @@
 <body class="tk-aktiv-grotesk-extended">
     <header>
         <nav> 
+            <a href="#news">News</a>
             <a href="#tickets">Tickets</a>
-            <a href="#submissions">Submissions</a>
-            <a href="#topics">Topics</a>
+            <a href="#venue">Venue</a>
             <a href="#contact">Contact</a>
         </nav>
         <img class="logo" src="images/logo.png" alt="SIDeR Logo">
@@ -91,6 +91,11 @@
             <h1>Tickets</h1>
             <script>function receiveMessage(e){var t,i,n=e.data.split(":"),r=n[0],a=0,o=["https://organizer.ticketpay.de","https://ticketing.ticketpay.de","https://shop.ticketpay.de","https://preregistration.ticketpay.de"];if(Array.prototype.indexOf||(Array.prototype.indexOf=function(e,t){for(var i=t||0,n=this.length;n>i;i++)if(this[i]===e)return i;return-1}),-1!==o.indexOf(e.origin)&&"resize"===r)for(t=document.getElementsByTagName("iframe"),i=t.length;i>a;a++)if((t[a].contentWindow||t[a].documentWindow)==e.source)return void(t[a].style.height=n[1]+"px")}window.addEventListener?window.addEventListener("message",receiveMessage,!1):window.attachEvent&&window.attachEvent("onmessage",receiveMessage);</script>
             <iframe frameborder='0' height='100%' id='tpiframe' onload=' ((typeof parent.document.tpiframeCalled === "undefined") ? parent.document.tpiframeCalled = true : parent.document.getElementById("tpiframe").scrollIntoView()) ' scrolling='no' src='https://shop.ticketpay.de/AB7HF4A9' width='100%'></iframe>
+        </section>
+
+        <section id="venue">
+            <h1>The Venue</h1>
+            <iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=10.126862525939943%2C54.326338064155074%2C10.131368637084961%2C54.328749955996514&amp;layer=mapnik&amp;marker=54.32754559188758%2C10.129115581512451" style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/?mlat=54.32755&amp;mlon=10.12912#map=18/54.32754/10.12912">View on OpenStreetMap</a></small>
         </section>
 
         <section id="submissions">

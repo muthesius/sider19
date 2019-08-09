@@ -19,14 +19,11 @@
     
   }
 
-  #spacer{
-    margin-bottom: 5rem;
-  }
 
-  #spacer div {
+ #dates {
     position: absolute;
-    top: 150Px;
-    left: 62%;
+    top: -200Px;
+    right: 5%;
     
   }
 
@@ -47,7 +44,7 @@
     column-count: 2;
   }
 
-  #submissions div{
+  #submissions section{
     column-count: 2;
     
   }

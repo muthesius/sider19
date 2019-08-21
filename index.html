@@ -8,13 +8,17 @@
     <link rel="stylesheet" href="https://use.typekit.net/smy7vmm.css">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css">
     <link rel="stylesheet" type="text/css" media="screen" href="devices.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="vendor.js"></script>
     <script src="main.js"></script>
+
 </head>
 <body class="tk-aktiv-grotesk-extended">
     <header>
-        <nav>
-            <a href="#submissions">Submissions</a>
-            <a href="#topics">Topics</a>
+        <nav> 
+            <a href="#news">News</a>
+            <a href="#tickets">Tickets</a>
+            <a href="#venue">Venue</a>
             <a href="#contact">Contact</a>
         </nav>
         <img class="logo" src="images/logo.png" alt="SIDeR Logo">
@@ -24,73 +28,117 @@
             <br />
             <strong>13.09. &mdash; 14.09.2019</strong>
         </p>
+        
     </header>
     <main>
-        <section id="news">
-            <p>We are currently reviewing and will let you all know as soon as possible!</p>
-        </section>
         <section id="dates">
             <h1>Important Dates</h1>
-            <dl>
-                <dt>
-                    <strong>Extended Submission Deadline</strong>
-                </dt>
-                <dd>
-                    June 2nd, 2019
-                </dd>
-                <dt>
-                    <strong>Submission Deadline</strong>
-                </dt>
-                <dd>
-                    May 26th, 2019
-                </dd>
-                <dt>
-                    Notice of acceptance
-                </dt>
-                <dd>
-                    August 11th, 2019
-                </dd>
-                <dt>
-                    Camera Ready Deadline
-                </dt>
-                <dd>
-                    August 25th, 2019
-                </dd>
-                <dt>
-                    Informal opening party
-                </dt>
-                <dd>
-                    September 12th, 2019
-                </dd>
-                <dt>
-                    Conference
-                </dt>
-                <dd>
-                    September 13-14, 2019
-                </dd>
-            </dl>
+                <dl>
+                    <dt>
+                        Notice of acceptance
+                    </dt>
+                    <dd>
+                            <strong>August 11th, 2019</strong>
+                    </dd>
+                    <dt>
+                        Camera Ready Deadline
+                    </dt>
+                    <dd>
+                        <strong>August 25th, 2019</strong>
+                    </dd>
+                     <dt>
+                        Informal opening party
+                    </dt>
+                    <dd>
+                        <strong>September 12th, 2019</strong>
+                    </dd>
+                    <dt>
+                        Conference
+                    </dt>
+                    <dd>
+                        <strong>September 13-14, 2019</strong>
+                    </dd>
+                </dl>        
         </section>
+
         <section id="welcome">
-            <h1>SUB<br>SIDE<br>SUPER<br>HUMAN</h1>
-            <h2>Welcome to Kiel!</h2>
+            <h1>MOIN!</h1>
             <p>
-                This year’s SIDeR’19 conference will take place at Muthesius Academy of Art and Design in Kiel for the first time in
-                a German speaking country and absolutely close to Scandinavia!
+                we are facing a golden opportunity to host the Students Interaction Design Research Conference – SIDeR in short – for the first time in a German speaking country at 
+                Muthesius Academy for Art and Design in Kiel.<br>
+                The theme of this year’s conference is SUB/SIDE/SUPER | HUMAN. 
             </p>
             <p>
-                We are so excited to be your hosts this year and to support the great idea behind the Students Interaction Design
-                Research Conference. It is going to be a conference and a network party from students for students — our students
-                are happy to welcome all of you!
-            </p>
-            <p>
-                At the same time the City of Kiel is celebrating its third “Digital Week Kiel” and with SIDeR’19.
-            </p>
-            <p>
-                We are a vivid part of it!
+                As the name implies, this conference is exclusively dedicated to young aspiring creative scientists.
+                And as our theme implies, this year we are dealing with human-technology-interaction issues like subtle support,
+                equipollent collaboration up to technical empowering for being superhuman.<br> 
+                The idea of the conference organised by students for students was developed 15 years ago in Scandinavia. 
+                The goal is to create a platform for young academic talents to exchange their research findings. 
+                In the last 14 years the conference was hosted at various universities in Scandinavia with the exception of two events in The Netherlands.
+                Last year’s host was the renowned Aalto University in Helsinki, Finland. This year we are proud to be your host from 13th to 14th of September during the Digital Week Kiel (#diwokiel) at Muthesius Academy for Arts and Design. We expect 120 to 150 international visitors.  
             </p>
         </section>
+
+        <aside class="centered-hint">
+            <a class="button-link" href="#tickets">Register a Ticket!</a>
+        </aside>
+
+        <section id="news">
+            <h1>The NEWS</h1>
+            <h2>Tickets are now available!</h2>
+            <p>
+                You can register through buying a ticket for the conference <a href="#tickets">here</a>.
+            </p>
+            <h2>Program online soon!</h2>
+            <p>
+                We have finalised the reviews and are brushing up the prepared program now...
+            </p>
+        </section>
+
+        <section id="tickets">
+            <h1>Tickets</h1>
+            
+            <script>function receiveMessage(e){var t,i,n=e.data.split(":"),r=n[0],a=0,o=["https://organizer.ticketpay.de","https://ticketing.ticketpay.de","https://shop.ticketpay.de","https://preregistration.ticketpay.de"];if(Array.prototype.indexOf||(Array.prototype.indexOf=function(e,t){for(var i=t||0,n=this.length;n>i;i++)if(this[i]===e)return i;return-1}),-1!==o.indexOf(e.origin)&&"resize"===r)for(t=document.getElementsByTagName("iframe"),i=t.length;i>a;a++)if((t[a].contentWindow||t[a].documentWindow)==e.source)return void(t[a].style.height=n[1]+"px")}window.addEventListener?window.addEventListener("message",receiveMessage,!1):window.attachEvent&&window.attachEvent("onmessage",receiveMessage);</script>
+            <iframe frameborder='0' height='100%' id='tpiframe' onload=' ((typeof parent.document.tpiframeCalled === "undefined") ? parent.document.tpiframeCalled = true : parent.document.getElementById("tpiframe").scrollIntoView()) ' scrolling='no' src='https://shop.ticketpay.de/AB7HF4A9' width='100%'></iframe>
+        </section>
+
+        <section id="venue">
+            <h1>The Venue</h1>
+
+            
+            
+            <ul class="rslides" id="slider">
+                <li><img class="slides" src="images/slideshow/sider_campus_homepage_lr_01--7.jpg"></li>
+                <li><img class="slides" src="images/slideshow/sider_campus_homepage_lr_02-.jpg"></li>
+                <li><img class="slides" src="images/slideshow/sider_campus_homepage_lr_01-11.jpg"></li>  
+                <li><img class="slides" src="images/slideshow/sider_campus_homepage_lr_02-2016.jpg"></li>
+                     
+            </ul>
+
+                
+            <p>
+                Welcome to the smallest and most northern art academy in Germany. 
+                Muthesius Academy for Arts and Design in Kiel. A vivid place with a history of
+                112 years and our place where we passionately design desirable futures.
+                680 students in fine arts, special strategies, communication design and industrial 
+                design make this place a special one. A place we want to share with you!
+                As your SIDeR’19 hosts we are the interface design program BA/MA of the
+                industrial design department supported by our friends from other departments.
+                We will not only welcome you at our campus but also bring you to a scenic party
+                spot at the sea and if you want to a boat trip on our fjord! 
+            </p>
+
+            <h2>Loaction</h2>
+
+            <iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=10.126862525939943%2C54.326338064155074%2C10.131368637084961%2C54.328749955996514&amp;layer=mapnik&amp;marker=54.32754559188758%2C10.129115581512451" style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/?mlat=54.32755&amp;mlon=10.12912#map=18/54.32754/10.12912">View on OpenStreetMap</a></small>
+        </section>
+
         <section id="submissions">
             <h1>Submission</h1>
+            <section>
+                <p>
+                    Submissions are closed!
+                </p>
                 <p>
                     We invite original unpublished research and design work. We welcome case studies, theoretical musings and couplings of theory and practical work. We invite three different types of submissions:
                 </p>
@@ -110,66 +158,71 @@
                 <p>
                     Please find the Nordes paper template here: <strong><a href="http://nordes.org/nordes2013/template.doc" title="Nordes 2013 template">Download Template</a></strong>
                 </p>
-                <aside class="submission-link">
-                    <a href="https://easychair.org/conferences/?conf=sider2019" disabled="disabled">Submit a Contribution</a>
-                </aside>
+            </section>
+            <aside class="centered-hint">
+                <a class="button-link" href="https://easychair.org/conferences/?conf=sider2019" disabled="disabled">Submit a Contribution</a>
+            </aside>
         </section>
+
         <section id="topics">
             <h1>Topics</h1>
-            <p>
-                Suggested topics for papers include but are not limited to:
-            </p>
-            <ul>
-                <li>
-                    Participatory Design
-                </li>
-                <li>
-                    Design Process
-                </li>
-                <li>
-                    Human-Computer Interaction
-                </li>
-                <li>
-                    Ubiquitous Computing
-                </li>
-                <li>
-                    Multimodal Interaction
-                </li>
-                <li>
-                    Tangible User Interfaces
-                </li>
-                <li>
-                    Aesthetics of Interaction
-                </li>
-                <li>
-                    Experimental Design
-                </li>
-                <li>
-                    Design Methods
-                </li>
-                <li>
-                    Interaction Techniques
-                </li>
-                <li>
-                    Information Visualisation
-                </li>
-                <li>
-                    Design Cases
-                </li>
-                <li>
-                    Mobile Computing
-                </li>
-                <li>
-                    Data Physicalization
-                </li>
-                <li>
-                    Artificial Intelligence
-                </li>
-                <li>
-                    Game Design
-                </li>
-            </ul>
+                <div>
+                    <p>
+                        <strong>Suggested topics for papers include but are not limited to:</strong>
+                    </p>
+                    <ul>
+                        <li>
+                            Participatory Design
+                        </li>
+                        <li>
+                            Design Process
+                        </li>
+                        <li>
+                            Human-Computer Interaction
+                        </li>
+                        <li>
+                            Ubiquitous Computing
+                        </li>
+                        <li>
+                            Multimodal Interaction
+                        </li>
+                        <li>
+                            Tangible User Interfaces
+                        </li>
+                        <li>
+                            Aesthetics of Interaction
+                        </li>
+                        <li>
+                            Experimental Design
+                        </li>
+                        <li>
+                            Design Methods
+                        </li>
+                        <li>
+                            Interaction Techniques
+                        </li>
+                        <li>
+                            Information Visualisation
+                        </li>
+                        <li>
+                            Design Cases
+                        </li>
+                        <li>
+                            Mobile Computing
+                        </li>
+                        <li>
+                            Data Physicalization
+                        </li>
+                        <li>
+                            Artificial Intelligence
+                        </li>
+                        <li>
+                            Game Design
+                        </li>
+                    </ul>
+                </div>
         </section>
+
         <section id="contact">
             <h1>Contact</h1>
             <p>
@@ -177,6 +230,7 @@
             </p>
         </section>
     </main>
+
     <footer>
         <a href="https://muthesius-kunsthochschule.de"><img src="images/muthesius-logo.png" alt="Muthesius Kunsthochschule"></a>
     </footer>

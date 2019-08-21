@@ -165,7 +165,7 @@ dd {
   overflow: hidden;
   width: 100%;
   padding: 0;
-  margin: auto;
+  margin: 2rem auto 1rem;
   }
 
 .rslides li {
@@ -260,4 +260,5 @@ footer {
   max-height: calc(106px - 2rem);
   min-height: calc(10vh - 2rem);
   padding: 1rem;
+  z-index: 4;
 }

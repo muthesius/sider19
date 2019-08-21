@@ -159,6 +159,38 @@ dd {
   width: calc(100% - 2px);
 }
 
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 2rem auto 1rem;
+  }
+
+.rslides li {
+  
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+  }
+
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+  }
+
+.rslides img {
+  display: block;
+  height: auto;
+  float: left;
+  width: 100%;
+  border: 0;
+  }
+
 /* Submissions */
 
 #submissions section{
@@ -228,4 +260,5 @@ footer {
   max-height: calc(106px - 2rem);
   min-height: calc(10vh - 2rem);
   padding: 1rem;
+  z-index: 4;
 }

@@ -8,10 +8,7 @@
     <link rel="stylesheet" href="https://use.typekit.net/smy7vmm.css">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css">
     <link rel="stylesheet" type="text/css" media="screen" href="devices.css">
-    <script src="../jquery-1.4.2.min.js"></script>
     <script src="main.js"></script>
-    
-
 </head>
 <body class="tk-aktiv-grotesk-extended">
     <header>
@@ -104,34 +101,6 @@
 
         <section id="venue">
             <h1>The Venue</h1>
-<<<<<<< HEAD
-            
-            <div id="slideshow">
-                <ul>
-                    <li><img class="slides" src="images/slideshow/sider_campus_homepage_lr_01--7.jpg"></li>
-                    <li><img class="slides" src="images/slideshow/sider_campus_homepage_lr_02-.jpg"></li>
-                    <li><img class="slides" src="images/slideshow/sider_campus_homepage_lr_01-11.jpg"></li>  
-                    <li><img class="slides" src="images/slideshow/sider_campus_homepage_lr_02-2016.jpg"></li> 
-                </ul>
-                <span class="button prevButton">&#10094;</span>
-	            <span class="button nextButton">&#10095;</span>
-            </div>
-            <p>
-                Welcome to the smallest and furthermost northern art academy in Germany. 
-                Muthesius Academy for Arts and Design in Kiel. A vivid place with a history of
-                112 years and our place where we passionately design desirable futures.
-                680 students in fine arts, special strategies, communication design and industrial 
-                design make this place a special one. A place we want to share with you!
-                As your SIDeR’19 hosts we are the interface design program BA/MA of the
-                industrial design department supported by our friends from other departments.
-                We will not only welcome you at our campus but also bring you to a scenic party
-                spot at the sea and if you want to a 
-                boat trip on our fjord! 
-            </p>
-
-            <h2>Loaction</h2>
-=======
->>>>>>> 1fbe5953767b0cc15cd7eb490fe47f56cb865fb4
 
             <iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=10.126862525939943%2C54.326338064155074%2C10.131368637084961%2C54.328749955996514&amp;layer=mapnik&amp;marker=54.32754559188758%2C10.129115581512451" style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/?mlat=54.32755&amp;mlon=10.12912#map=18/54.32754/10.12912">View on OpenStreetMap</a></small>
         </section>

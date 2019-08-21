@@ -125,17 +125,22 @@ section {
   color: black;
   border: 3px solid black;
   background-color: white;
-  max-width: 330px;
+  max-width: 242px;
   margin: auto;
+
 }
 
-#dates dl {
+#dates ul {
   border-top: 3px solid black;
   padding: 1rem 2rem;
   margin: auto; 
   background-color: white;
 }
 
+#dates li{
+  font-weight: bold;
+  margin-bottom: .25rem;
+}
 #dates h1 {
   /* pull in the dl to hide the double border */
   
@@ -146,13 +151,7 @@ section {
   padding: 1rem 1rem;
 }
 
-dd::before {
-  content: "\2014";
-}
 
-dd {
-  margin-bottom: 1rem;
-}
 
 /* Venue */
 #venue iframe {

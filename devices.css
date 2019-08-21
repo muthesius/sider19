@@ -20,16 +20,11 @@
   }
 
 
- #dates {
+ #facts {
     position: absolute;
     top: -200Px;
     right: 5%;
     
-  }
-
-  #dates dl {
-    float: left; 
-
   }
 
   #welcome p {

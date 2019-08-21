@@ -121,7 +121,7 @@ section {
 /* Dates definitions */
 
 
-#dates {
+#facts {
   color: black;
   border: 3px solid black;
   background-color: white;
@@ -130,18 +130,18 @@ section {
 
 }
 
-#dates ul {
+#facts ul {
   border-top: 3px solid black;
   padding: 1rem 2rem;
   margin: auto; 
   background-color: white;
 }
 
-#dates li{
+#facts li{
   font-weight: bold;
   margin-bottom: .25rem;
 }
-#dates h1 {
+#facts h1 {
   /* pull in the dl to hide the double border */
   
   margin-top: -1px;

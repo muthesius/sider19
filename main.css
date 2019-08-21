@@ -159,6 +159,70 @@ dd {
   width: calc(100% - 2px);
 }
 
+#slideshow{
+  width:604px;
+	height:453px;
+  position: relative;
+  margin: 2rem auto 2rem;
+}
+
+#slideshow ul{
+  width:604px;
+	height:453px;
+  list-style: none outside none;
+  position: relative;
+  overflow: hidden;
+  padding:0;
+}
+
+#slideshow li:first-child{
+  display:list-item;
+  position:absolute;
+}
+
+#slideshow li{
+  position:absolute;
+  display:none;
+}
+
+#slideshow span{
+  color: white;
+  text-align: center ;
+  font-size: 3rem;
+  line-height: 5rem;
+  
+  
+}
+#slideshow .prevButton{
+  height:72px;
+  width:40px;
+  position:absolute;
+  top:50%;
+  margin-top:-36px;
+  cursor:pointer;
+  z-index:2000;
+  background-position:left top;
+  left:0
+}
+
+#slideshow .prevButton:hover{ 
+  background-color: rgba(104, 104, 104, 0.5);}
+
+#slideshow .nextButton{
+  height:72px;
+  width:40px;
+  position:absolute;
+  top:50%;
+  margin-top:-36px;
+  cursor:pointer;
+  z-index:2000;
+  background-position:right top;
+  right:0
+  }    
+    
+  #slideshow .nextButton:hover{ 
+    background-color: rgba(104, 104, 104, 0.5);}
+
 /* Submissions */
 
 #submissions section{

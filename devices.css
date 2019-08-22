@@ -31,6 +31,10 @@
     max-width: 60%;
   }
 
+  .centered-hint {
+    max-width: 60%;
+  }
+
 }
 
 @media (min-width: 650px) {

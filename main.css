@@ -130,11 +130,9 @@ section {
 }
 
 #facts ul {
-<<<<<<< HEAD
+
   border: 3px solid black;
-=======
-  border-top: 3px solid black;
->>>>>>> d8df4944a993d7a7ea5a5cad4111568a4ba20227
+
   padding: 1rem 2rem;
   margin: auto; 
   background-color: white;
@@ -154,14 +152,11 @@ section {
   padding: 1rem 1rem;
 }
 
-<<<<<<< HEAD
 .mood{
   width: 100%;;
   margin: 2rem auto 0rem; 
 }
-=======
 
->>>>>>> d8df4944a993d7a7ea5a5cad4111568a4ba20227
 
 /* Venue */
 #venue iframe {

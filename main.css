@@ -123,7 +123,6 @@ section {
 
 #facts {
   color: black;
-  border: 3px solid black;
   background-color: white;
   max-width: 242px;
   margin: auto;
@@ -131,7 +130,7 @@ section {
 }
 
 #facts ul {
-  border-top: 3px solid black;
+  border: 3px solid black;
   padding: 1rem 2rem;
   margin: auto; 
   background-color: white;
@@ -143,12 +142,17 @@ section {
 }
 #facts h1 {
   /* pull in the dl to hide the double border */
-  
+  border: 3px solid black;
   margin-top: -1px;
   margin-bottom: -2px;
   font-size: 1.5rem;
   text-align: center;
   padding: 1rem 1rem;
+}
+
+.mood{
+  width: 100%;
+  margin: 2rem auto 0rem; 
 }
 
 /* Program */

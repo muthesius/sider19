@@ -28,13 +28,10 @@
   }
 
   #welcome p {
-<<<<<<< HEAD
     max-width: 60%;
   }
 
   .centered-hint {
-=======
->>>>>>> d8df4944a993d7a7ea5a5cad4111568a4ba20227
     max-width: 60%;
   }
 

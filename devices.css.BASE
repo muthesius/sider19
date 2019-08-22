@@ -20,21 +20,19 @@
   }
 
 
- #facts {
+ #dates {
     position: absolute;
     top: -200Px;
     right: 5%;
     
   }
 
-  #welcome p {
-<<<<<<< HEAD
-    max-width: 60%;
+  #dates dl {
+    float: left; 
+
   }
 
-  .centered-hint {
-=======
->>>>>>> d8df4944a993d7a7ea5a5cad4111568a4ba20227
+  #welcome p {
     max-width: 60%;
   }
 

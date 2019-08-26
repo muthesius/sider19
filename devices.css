@@ -58,9 +58,17 @@
 }
 
 @media (min-width: 722px){
+  #program #sec_topic{
+    height: 570px;
+  }
+   
+  #program .topic{
+    height: 270px;
+  }
   #program #mobile{
     display: none;
   }
+
   #program section{
     column-count: 3;
     height: 540px;

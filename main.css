@@ -160,12 +160,48 @@ section {
 #program{
   position: relative;
 }
+
+#program #session{
+  text-align: inherit;
+  padding: 0;
+}
 #program section{
   column-count: 0;
   padding: 1rem;
-  margin: auto;
+  margin: 1rem 1rem 4rem;
   height: 1600px;
+
 }
+
+#program #sec_topic{
+  position: relative;
+  background-image: url(./images/gradient_01.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+#program .topic{
+  border: 3px solid black;
+  margin: 0 0 1rem 0;
+  break-inside: avoid;
+  
+  background-color: white;
+}
+.topic h3{
+  text-align: center;
+  background-color: white;
+  border-bottom: 3px solid black;
+  margin: 0;
+  padding: 1rem;
+}
+
+.topic p{
+  margin: 0.5rem;
+}
+
+#program dd{
+  break-inside: avoid;
+}
+
 
 #program h2{
   break-inside: avoid;

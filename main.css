@@ -169,7 +169,7 @@ section {
   column-count: 0;
   padding: 1rem;
   margin: 1rem 1rem 4rem;
-  height: 1600px;
+  max-height: 1600px;
 
 }
 
@@ -183,7 +183,6 @@ section {
   border: 3px solid black;
   margin: 0 0 1rem 0;
   break-inside: avoid;
-  
   background-color: white;
 }
 .topic h3{

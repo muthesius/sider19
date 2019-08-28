@@ -58,12 +58,21 @@
 }
 
 @media (min-width: 722px){
+  #program #sec_topic{
+    min-height: 570px;
+    
+  }
+   
+  #program .topic{
+    min-height: 270px;
+  }
   #program #mobile{
     display: none;
   }
+
   #program section{
     column-count: 3;
-    height: 540px;
+    min-height: 540px;
     background-image: url(./images/gradient_01.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -72,4 +81,12 @@
   #program .mobile_border{
     background: 0;
   }
+
+}
+
+@media(min-width: 500px) and (max-width: 721px){
+  #program #sec_topic{
+    column-count: 2;
+  }
+
 }

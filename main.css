@@ -124,7 +124,7 @@ section {
 #facts {
   color: black;
   background-color: white;
-  max-width: 242px;
+  max-width: 250px;
   margin: auto;
 
 }
@@ -167,6 +167,9 @@ section {
 }
 #program section{
   column-count: 0;
+
+
+  
   padding: 1rem;
   margin: 1rem 1rem 4rem;
   max-height: 1600px;

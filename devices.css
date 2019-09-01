@@ -31,7 +31,7 @@
     max-width: 60%;
   }
   
-  .centered-hint{
+  #ticket_button{
     max-width: 60%
   }
 }
@@ -59,28 +59,27 @@
 
 @media (min-width: 722px){
   #program #sec_topic{
+    column-count: 3;
     min-height: 570px;
     
   }
    
   #program .topic{
-    min-height: 270px;
-  }
-  #program #mobile{
-    display: none;
+    min-height: 272px;
   }
 
   #program section{
     column-count: 3;
-    min-height: 540px;
     background-image: url(./images/gradient_01.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
   }
-
-  #program .mobile_border{
+  
+  #program .day{
     background: 0;
+    min-height: 770px;
   }
+
 
 }
 

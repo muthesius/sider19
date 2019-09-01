@@ -124,7 +124,7 @@ section {
 #facts {
   color: black;
   background-color: white;
-  max-width: 242px;
+  max-width: 250px;
   margin: auto;
 
 }
@@ -166,11 +166,8 @@ section {
   padding: 0;
 }
 #program section{
-  column-count: 0;
   padding: 1rem;
   margin: 1rem 1rem 4rem;
-  max-height: 1600px;
-
 }
 
 #program #sec_topic{
@@ -186,9 +183,7 @@ section {
   background-color: white;
 }
 .topic h3{
-  text-align: center;
   background-color: white;
-  border-bottom: 3px solid black;
   margin: 0;
   padding: 1rem;
 }
@@ -204,56 +199,49 @@ section {
 
 #program h2{
   break-inside: avoid;
-  margin: 0;
-  margin-bottom: -3px;
+  margin: 0 0 1rem;
   padding: 0.5rem;
-  text-align: center;
 }
 
-#program .time{
-  margin: 0;
-  writing-mode: vertical-rl;
-  transform: rotate(180deg);
-  height: 47%;
-}
 
-#program .mobile_border{
-  height: 530px;
+#program .day{
+  position: relative;
   break-inside: avoid;
   background-image: url(./images/gradient_01.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  margin-bottom: 1rem;
-}
-
-#program .time_block{
-  position: relative;
-  break-inside: avoid;
-  float:left;
-  height: 520px;
-  width: 10%;
-  
-}
-
-#program .day{
-  position: relative;
-  float:left;
-  width: 90%;
-  height: 520px;
-  break-inside: avoid;
+  margin:0 -1rem 1rem;
+  padding: 1rem;
+  min-height: 460px;
   
 }
 
 #program .block{
-  position: absolute;
-  right: 3%;
-  padding: 1rem 0 1rem;
+  position: relative;
+  z-index: 1;
+  break-inside: avoid;
+  padding: 0.5rem;
   border: 3px solid black;
-  width: 85%;
-  text-align: center;
   background-color: white;
+  margin-bottom: 1rem;
 }
-
+#program #off_set_block{
+  margin-top: -1rem;
+  z-index: 3;
+  float: left;
+  width: 80%;
+}
+ #program h3, p{
+   margin:0;
+ }
+ #program img{
+   position: relative;
+   z-index: 2;
+   float: right;
+   margin: -4rem 1rem 0 0;
+   width: 160px;
+   
+ }
 
 /* Venue */
 #venue iframe {

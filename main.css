@@ -336,7 +336,12 @@ section {
 #topics li {
   list-style-type: disc;
 }
+/* Sponsors */
 
+#sponsors img{
+  display:block;
+  margin: auto;
+}
 /* Footer */
 footer {
   position: fixed;

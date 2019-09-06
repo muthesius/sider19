@@ -341,6 +341,7 @@ section {
 #sponsors img{
   display:block;
   margin: auto;
+  width: 100%;
 }
 /* Footer */
 footer {

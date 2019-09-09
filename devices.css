@@ -46,6 +46,12 @@
     column-count: 2;
     
   }
+  #news section{
+    column-count: 2;
+  }
+#news div{
+  min-height: 803px;
+}
 
 }
 
